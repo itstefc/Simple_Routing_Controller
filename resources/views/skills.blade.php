@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>{{ $data }}</h1>
+    <li>Web Development</li>
+    <li>Project Management</li>
     <button onclick="location.href='{{ route('about.me') }}'">About Me</button>
     <button onclick="location.href='{{ route('skills') }}'">Skills</button>
     <button onclick="location.href='{{ route('hobbies') }}'">Hobbies</button>
